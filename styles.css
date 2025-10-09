@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+
+body {
+  background-color: rgb(187, 20, 20);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: linear-gradient(135deg, #bb1414, #2a0a0a);
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+  font-size: 3rem;
+  color: #f0e6d2;
+  text-shadow: 2px 2px 4px #00000080;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 10px;
+  width: 90vw;
+  max-width: 800px;
+}
+
+.child {
+  width: 100%;
+  aspect-ratio: 1/1;
+  background-color: rgb(152, 125, 105);
+  border-radius: 5px;
+  border: 2px solid black;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #00000050;
+  background-image: url("images/logoBerserk.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.child:hover {
+  opacity: 0.8;
+}
