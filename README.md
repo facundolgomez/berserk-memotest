@@ -1,4 +1,4 @@
-#Berserk memotest
+# Berserk memotest
 
 Juego de memotest con los personajes del manga Berserk
 
