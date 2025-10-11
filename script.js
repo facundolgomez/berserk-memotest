@@ -25,7 +25,10 @@ const loadCards = () => {
 
 const flipCard = (e) => {
   const card = e.currentTarget;
-  console.log(card);
+
+  if (flippedCards.includes(card)) {
+    return;
+  }
   if (!isClickable || card.classList.contains("matched")) {
     return;
   } else {
@@ -54,7 +57,15 @@ const compareCards = (firstCard, secondCard) => {
       if (totalPoints === 32) {
         gameWin.play();
         setTimeout(() => {
-          alert("You won the game!");
+          const winMessage = document.createElement("div");
+          winMessage.classList.add("win-message");
+          winMessage.textContent = "¡YOU WON THE GAME!";
+
+          document.body.appendChild(winMessage);
+
+          setTimeout(() => {
+            winMessage.classList.add("show");
+          }, 100);
         }, 500);
       }
     } else {
