@@ -82,12 +82,12 @@
   {
     "id": 17,
     "name": "Mozgus",
-    "image": "images/mozgus.webp"
+    "image": "images/mozgus.jpg"
   },
   {
     "id": 18,
     "name": "Charlotte",
-    "image": "images/charlotte.jpg"
+    "image": "images/charlotte.webp"
   },
   {
     "id": 19,
@@ -111,8 +111,8 @@
   },
   {
     "id": 23,
-    "name": "Farnese's Servant",
-    "image": "images/farneseservants.webp"
+    "name": "Wyald",
+    "image": "images/wyald.webp"
   },
   {
     "id": 24,
@@ -127,17 +127,17 @@
   {
     "id": 26,
     "name": "Chapel Apostles",
-    "image": "images/chapelapostles.jpg"
+    "image": "images/apostles.webp"
   },
   {
     "id": 27,
     "name": "Adon",
-    "image": "images/adon.webp"
+    "image": "images/adon.jpg"
   },
   {
     "id": 28,
     "name": "Julius",
-    "image": "images/julius.webp"
+    "image": "images/julius.png"
   },
   {
     "id": 29,
